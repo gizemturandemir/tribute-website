@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(142, 144, 145);
+  color: black;
+  padding: 30px;
+  text-align: center;
+  font-family: "Pacifico , cursive";
+  font-weight: 900;
+  font-size: x-large;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.home {
+  max-width: 800px;
+  width: 90%;
+  min-height: 100vh;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  color: #edecec;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-image: url("images/salleyrooneyvogue.webp");
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+  filter: brightness(0.75);
+}
+
+article {
+  max-width: 800px;
+  width: 90%;
+  min-height: 100vh;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  text-align: center;
+  color: #edecec;
+}
+
+article img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+article p {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+
+.books {
+  max-width: 800px;
+  height: 150vh;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  color: #edecec;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.books ul {
+  list-style-type: none;
+}
+
+.books li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
