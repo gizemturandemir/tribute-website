@@ -107,3 +107,13 @@ article p {
   margin-bottom: 15px;
   font-size: 18px;
 }
+footer {
+  background-color: #222; /* Koyu zemin */
+  color: #fff; /* Yazı rengi beyaz */
+  text-align: center; /* Ortala */
+  padding: 20px 0; /* Üst-alt boşluk */
+  font-size: 14px; /* Küçük font */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
